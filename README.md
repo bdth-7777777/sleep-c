@@ -22,9 +22,10 @@ Pause the exact time in the command line\在命令行当中休眠精确的时间
 
 如果您写bat脚本时需要使用到sleep-c.exe,而sleep-c.exe在某个文件夹而不是在脚本执行的目录，您可以使用以下方法正常使用sleep-c
 
-@echo off
+[sleep-c.txt](https://github.com/bdth-7777777/sleep-c/files/13624881/sleep-c.txt)@echo off
 set sleep-c=bin\sleep-c.exe
 %sleep-c% -s 300
+
 
 总之，希望sleep-c能够在您需要时帮助您更好地完成您的bat脚本。
 
